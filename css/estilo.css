@@ -1,0 +1,339 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{ 
+  background-color:white;
+  color:white; 
+	font-family:'Roboto'; 
+  font-size:12px; 
+}
+
+header {
+  position: sticky;
+  top:0;background-color:white;
+  padding:8px; 
+	text-align: center;
+  font-size: 14px;
+  z-index: 1
+}
+
+nav ul {
+  list-style: none; 
+  text-align: right;
+  padding:12px
+}
+
+nav ul li {
+  display: inline; 
+  margin: 20px;
+}
+
+nav ul li a{
+  color:#4E4E4E;
+  text-decoration:none 
+}	
+
+header a:hover{
+  font-weight: bold;
+}
+
+header nav img{
+  width: 120px;
+  float: left
+}
+
+h1 {
+  font-size:60px; 
+  color:#4E4E4E 
+}
+
+h2 {
+  font-size:35px; 
+  color:#bfa883 
+}
+
+.rslides{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.rslides ul {
+  display: flex;
+  padding: 0px;
+  width: 200%;
+
+  animation: cambio 10s infinite
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  35% {margin-left: 0;}
+  55% {margin-left: -100%;}
+  85% {margin-left: -100%;}
+}
+
+.rslides ul li {
+  list-style: none;
+  width: 100%;
+}
+
+.rslides img {
+  width: 100%
+}
+
+.sucursales { 
+  background-color: white; 
+  display:flex; 
+  flex-flow: wrap;
+ text-align: center;
+ width: 100%
+}
+
+.sucursales img{
+  margin-top: 20px;
+  width:100%; display: block;
+  margin-bottom: 50px
+}
+
+.nosotros img{
+  width:100%; 
+  display: block;
+  margin-bottom: 10px
+}
+
+.productos{
+  background-color: white;
+ text-align: center;
+ width: 100%
+}
+
+
+.caja1columna { 
+  background-color: white;
+  text-align:center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.caja3columnas { 
+  background-color: white;
+  color: #4E4E4E;
+  text-align:center;
+  width: 21%; 
+  margin-left:6%; 
+  margin-right:6%;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  display: block; 
+  box-sizing: border-box
+}
+
+ .caja3columnas p {
+  font-size: 18px;
+  width: 70%;
+  text-align:center;
+  margin-left:15%; 
+  margin-right:15%;
+  }	
+
+.caja3columnas img {
+  margin-bottom: 30px
+}
+
+.cajasucursales { 
+  text-align:left; 
+  width: 60%; 
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 200px;
+  display: block; 
+  box-sizing: border-box
+}
+
+.cajasucursales img {
+  Float:left;
+  width: 50%;
+  margin-right: 30px
+}
+
+.cajasucursales p {
+  font-size: 18px; 
+  color: #4E4E4E;
+  padding-top: 12px
+} 
+
+.cajasucursales h2 {
+  font-size:26px; 
+  color:#4E4E4E;
+  display: block;
+  padding-top: 15px}
+
+.formularioimg1 img {
+  width:28%;
+  padding-top: 25px;
+  float: left;
+}
+
+.formularioimg2 img {
+  width: 28%;
+  padding-top: 25px;
+  float: right;
+}
+
+.formulario {
+box-sizing: border-box;
+width: 380px;
+background-color: black;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+border-radius: 4px;
+color: red;
+}
+
+.formulario h1{
+  margin-bottom: 20px;
+  color: white;
+  font-size: 26px;
+}
+
+.carga  {
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border:1px solid white;
+
+}
+
+.boton {
+  width: 50%;
+  background-color: #bfa883;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin-top: 16px;
+}
+
+footer {
+  background-color: black;
+  text-align:left; 
+  width: 96%; 
+  padding: 2%;
+  font-size:20px
+} 
+
+footer img {
+  width: 16%;
+  float: right;
+  margin-top: 25px;
+  margin-right: 5%
+}
+
+footer h2 {
+  font-size: 16px
+}
+
+footer a {
+  font-size: 13px;
+  color:white;
+  text-decoration: none;
+}
+
+.redes {
+  position: fixed;
+  top: 20%;
+  right: 1px;
+  width: 34px;
+  padding: 3px; 
+  background-color: #FFFFFF99;
+  border-radius: 10px 0 0 10px;}
+
+#sombraclara{ 
+   box-shadow: 0px 1px 10px #525252;
+   -webkit-box-shadow: 0px 1px 10px #525252;
+   -moz-box-shadow: 0px 1px 10px #525252;
+} 
+
+@media(max-width:980px) {
+  .cajasucursales p {font-size: 12px;padding-top: 6px} 
+  .cajasucursales h2 {font-size: 15px;padding-top: 10px}
+  .cajasucursales { text-align:center;padding-bottom: 100px}
+}
+
+
+
+@media(max-width:680px) {
+  
+  header {
+    position: static;
+  }
+	
+  nav ul li {
+    display: block;
+    text-align: center;
+  }
+	
+  nav ul li a { 
+    display: block;
+  }
+	
+  header nav img{
+    width: 120px;
+    float: none
+  }
+  
+  .caja3columnas { 
+    width: 98%;
+  }
+    
+  .cajasucursales { 
+    text-align:center;
+    padding-bottom: 50px
+  }
+
+  .cajasucursales img {
+    Float:left;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+  }
+
+}
+
+.gustos { 
+  background-color: white; 
+  display:flex; 
+  flex-flow: wrap;
+ text-align: center;
+ width: 100%
+}
+
+.gustos img{
+  margin-top: 20px;
+  width:100%; 
+  display: block;
+  margin-bottom: 50px
+}
+
+.caja1gustos { 
+  background-color: white;
+  text-align:center;
+ width: 84%;
+ margin-left: 8%;
+ margin-right: 8%;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ display: block;
+ box-sizing: border-box;
+}
